@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css"/>
+		<title>Sylvain Contact - Street WorkOut</title>
+	</head>
+	
+	<body>
+		<div id="bloc_page">
+			<header>
+				<div id="banniere_image">
+				</div>
+			</header>
+				<nav>
+					<ul>
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="pagephotos.html">Photos</a></li>
+						<li><a href="pagevideos.html">Videos</a></li>
+						<li><a href="pagecontact.html">Contact</a></li>
+					</ul>
+				</nav>
+				
+				<section>
+					<form action="/ma-page-de-traitement" method="post">
+						<div>
+							<label for="nom">Nom :</label>
+							<input type="text" id="nom" name="user_name" />
+						</div>
+						<div>
+							<label for="courriel">Courriel :</label>
+							<input type="email" id="courriel" name="user_email" />
+						</div>
+						<div>
+							<label for="message">Message :</label>
+							<textarea id="message" name="user_message"></textarea>
+						</div>
+						<div class="button">
+							<button type="submit">Envoyer votre message</button>
+						</div>
+					</form>
+					
+				</section>
+				
+				<footer>
+					<div id="facebook">
+						<h1>Dernier message Facebook</h1>
+						<p>Back lever easy</p>
+						<p>Le 8 avril 2015 à 25h64</p>
+					</div>
+					<div id="mes_photos">
+					<h1>Mes photos</h1>
+					<p><a href="pagephotos.html"><img src="images/photo1.jpg" alt="Photographie"/><img src="images/photo2.jpg" alt="Photographie" /><img src="images/photo3.jpg" alt="Photographie" /></a></p>
+					</div>
+					<div id="mes_amis">
+					<h1>Mes amis</h1>
+					<ul>
+						<li><a href="#"> Nom de quelqu'un</a></li>
+						<li><a href="#"> Nom de quelqu"un</a></li>
+						<li><a href="#"> Nom de quelqu"un</a></li>
+						<li><a href="#"> Nom de quelqu"un</a></li>
+					</ul>
+					</div>
+				</footer>
+		</div>
+	</body>
+</html>
